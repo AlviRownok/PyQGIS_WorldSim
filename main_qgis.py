@@ -29,7 +29,7 @@ canvas.setExtent(QgsRectangle(-180, -90, 180, 90))
 canvas.setWheelFactor(2)
 
 # Load a GeoPackage layer
-gpkg_path = "C:/Users/alvirownok/Downloads/QGIS for python/boundary_bacoli.gpkg"
+gpkg_path = "C:/Users/alvirownok/Downloads/QGIS for python/boundary_file.gpkg"
 layer = QgsVectorLayer(gpkg_path, "boundary layer", "ogr")
 if not layer.isValid():
     print("Failed to open GeoPackage file!")
