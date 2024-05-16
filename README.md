@@ -25,7 +25,7 @@ To set up your environment to use QGIS 3.36.2 with Python, follow these steps:
 3. **Setting up Environment**
    - Open the .env file using your preferred IDE. I recommend Visual Studio. And you will see the following locations.
      
-## Configuration
+   - **Configuration**
 
 To properly set up your local environment for using Python with QGIS 3.36.2, you need to configure some environment variables. Here are the necessary settings:
 
@@ -40,7 +40,7 @@ PATH=%PATH%;C:\Users\alvirownok\pyQGIS\apps\Qt5\bin;C:\Users\alvirownok\pyQGIS\a
 4. **Setting up Workspace**
    - Open the settings.json file using Visual Studio.
 
-## Configuring Visual Studio Code Workspace
+   - **Configuring Visual Studio Code Workspace**
 
 For those using Visual Studio Code (VS Code) as their IDE, you can optimize your setup for working with Python and QGIS by configuring the following settings. Add these settings to your `settings.json` file in VS Code:
 
