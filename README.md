@@ -6,7 +6,7 @@ Welcome to the Python-for-QGIS-3.36.2 repository! This repository is dedicated t
 
 Before you begin, ensure you have the following installed:
 - Python 3.10 or newer. I am using Python 3.12.3 64-bit
-- QGIS 3.36.2 (install in a specific new directory of your choice so that you can acccess the installed folder for paths that will be required .env and settings.json.
+- QGIS 3.36.2 (install in a specific new directory of your choice so that you can acccess the installed folder for paths that will be required .env and settings.json.)
 - pip (Python package installer)
 
 This guide assumes you have basic knowledge of Python programming and familiarity with geographic information systems (GIS).
@@ -62,6 +62,9 @@ For those using Visual Studio Code (VS Code) as their IDE, you can optimize your
 
 5. **Play with the main_qgis_md.py**
    - Now run the main program. Check if all the libraries in the script are detected by your python kernel in Visual Studio.
+   - Below is an example of the map viewer output:
+
+   ![Madrid Map Viewer](Madrid%20Map%20Viewer.png)
 
 ## Contributing
 Contributions to this project are welcome! Please refer to `CONTRIBUTING.md` for more details on how to submit pull requests, report issues, or make suggestions for improvements.
